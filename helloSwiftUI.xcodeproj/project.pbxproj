@@ -16,6 +16,8 @@
 		D5A471AE28CBA53A006B3F25 /* helloSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A471AD28CBA53A006B3F25 /* helloSwiftUITests.swift */; };
 		D5A471B828CBA53A006B3F25 /* helloSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A471B728CBA53A006B3F25 /* helloSwiftUIUITests.swift */; };
 		D5A471BA28CBA53A006B3F25 /* helloSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A471B928CBA53A006B3F25 /* helloSwiftUIUITestsLaunchTests.swift */; };
+		D5A471C728CBBBB6006B3F25 /* headphoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A471C628CBBBB6006B3F25 /* headphoto.swift */; };
+		D5C8FB9728CE146A00803E1E /* signInPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C8FB9628CE146A00803E1E /* signInPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		D5A471B328CBA53A006B3F25 /* helloSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = helloSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5A471B728CBA53A006B3F25 /* helloSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helloSwiftUIUITests.swift; sourceTree = "<group>"; };
 		D5A471B928CBA53A006B3F25 /* helloSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helloSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D5A471C628CBBBB6006B3F25 /* headphoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = headphoto.swift; sourceTree = "<group>"; };
+		D5C8FB9628CE146A00803E1E /* signInPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signInPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 			children = (
 				D5A4719728CBA535006B3F25 /* helloSwiftUIApp.swift */,
 				D5A4719928CBA535006B3F25 /* ContentView.swift */,
+				D5C8FB9628CE146A00803E1E /* signInPage.swift */,
+				D5A471C628CBBBB6006B3F25 /* headphoto.swift */,
 				D5A4719B28CBA53A006B3F25 /* Assets.xcassets */,
 				D5A471A028CBA53A006B3F25 /* Persistence.swift */,
 				D5A471A228CBA53A006B3F25 /* helloSwiftUI.xcdatamodeld */,
@@ -263,6 +269,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5C8FB9728CE146A00803E1E /* signInPage.swift in Sources */,
+				D5A471C728CBBBB6006B3F25 /* headphoto.swift in Sources */,
 				D5A471A428CBA53A006B3F25 /* helloSwiftUI.xcdatamodeld in Sources */,
 				D5A471A128CBA53A006B3F25 /* Persistence.swift in Sources */,
 				D5A4719A28CBA535006B3F25 /* ContentView.swift in Sources */,

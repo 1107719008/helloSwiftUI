@@ -1,18 +1,17 @@
 //
-//  ContentView.swift
+//  signInPage.swift
 //  helloSwiftUI
 //
-//  Created by delask on 2022/9/10.
+//  Created by 林君翰 on 2022/9/11.
 //
 
 import SwiftUI
-import CoreData
 
-struct ContentView: View {
-   
+struct signInPage: View {
+    
+    @State var Username:String="abc"
+    
     var body: some View {
-        
-        
         VStack{
                 HStack{
                 ZStack(alignment: .bottomTrailing){
@@ -28,7 +27,7 @@ struct ContentView: View {
                        .offset(x:0,y:-12)//若為可觸發的按鈕則需將offset放在外面
                     //按鈕是以藍色框框觸發
                 }
-                    Text("hello swiftUI. This is my first project.這遍隨意打一些文字。做測試使用。")
+                    Text("Welcome Back " + Username)
                         .fontWeight(.bold)
                         .foregroundColor(.purple)
                         //.font(.title)
@@ -49,23 +48,15 @@ struct ContentView: View {
                 
                 
                 
-            }
-            
+        }
+        .padding()
+        
         
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct signInPage_Previews: PreviewProvider {
     static var previews: some View {
-        Group {
-            ContentView()
-           
-        }
+        signInPage()
     }
-}
-
-func signIn(){
-    
-    
-    
 }
