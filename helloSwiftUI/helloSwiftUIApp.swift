@@ -2,7 +2,7 @@
 //  helloSwiftUIApp.swift
 //  helloSwiftUI
 //
-//  Created by 林君翰 on 2022/9/10.
+//  Created by delask on 2022/9/10.
 //
 
 import SwiftUI
