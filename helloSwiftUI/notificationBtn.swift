@@ -17,14 +17,20 @@ struct headphoto: View {
                 //.cornerRadius(25)
             .clipShape(Circle())
             .padding()
+           
             
-            Text("PressMe")
-                .foregroundColor(Color.white)
-                .multilineTextAlignment(.center)
-                .frame(width: 200, height: 50)
-                    .background(Color.purple)
-                     
-                     .clipShape(RoundedRectangle(cornerRadius: 15))
+            
+            
+            
+            
+            
+//            Text("PressMe")
+//                .foregroundColor(Color.white)
+//                .multilineTextAlignment(.center)
+//                .frame(width: 200, height: 50)
+//                    .background(Color.purple)
+//
+//                     .clipShape(RoundedRectangle(cornerRadius: 15))
         }
             
     }
