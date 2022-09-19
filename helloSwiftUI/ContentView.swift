@@ -9,9 +9,11 @@ import SwiftUI
 import CoreData
 
 struct ContentView: View {
-   
+    
+    @State private var isPressed=true
+    
     var body: some View {
-        
+       
         
         VStack{
                 HStack{
@@ -39,14 +41,21 @@ struct ContentView: View {
 
                 }
                 HStack{
-                    Button(action:signIn) {
-                        Text("instagram")
+                    Button(action:{
+                        self.isPressed=true
+                    }) {
+                        Text("true")
                     }.padding(10)
-                    Button(action: {print("facebook pressed")}) {
-                        Text("facebook")
+                    
+                    Button(action: {
+                        self.isPressed=false
+                        
+                    }) {
+                        Text("false")
                     }.padding(10)
                 }.buttonStyle(.bordered)
-                
+            
+            Text(isPressed ? "yes":"no")
                 
                 
             }
@@ -55,9 +64,13 @@ struct ContentView: View {
     }
 }
 
+
+
+
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         Group {
+            ContentView()
             ContentView()
            
         }

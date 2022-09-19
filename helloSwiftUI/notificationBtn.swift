@@ -15,22 +15,26 @@ struct headphoto: View {
                 .scaledToFill()
                 .frame(width:320,height: 220)
                 //.cornerRadius(25)
+                .offset(x:-30,y:-30)
             .clipShape(Circle())
+            .shadow(color: .gray, radius: 5, x: 2, y: 3)
             .padding()
-           
+            //.opacity(0.50)
+            
+            
+         
             
             
             
-            
-            
-            
-//            Text("PressMe")
-//                .foregroundColor(Color.white)
-//                .multilineTextAlignment(.center)
-//                .frame(width: 200, height: 50)
-//                    .background(Color.purple)
-//
-//                     .clipShape(RoundedRectangle(cornerRadius: 15))
+            Text("PressMe")
+                .foregroundColor(Color.white)
+                .multilineTextAlignment(.center)
+                .padding(0.0)
+                .frame(width: 200, height: 50)
+                    .background(Color.purple)
+
+                     .clipShape(RoundedRectangle(cornerRadius: 15))
+                     .shadow(radius: 5)
         }
             
     }

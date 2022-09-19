@@ -45,7 +45,16 @@ struct signInPage: View {
                         Text("facebook")
                     }.padding(10)
                 }.buttonStyle(.bordered)
-                
+            
+            Text("PressMe")
+                .foregroundColor(Color.white)
+                .multilineTextAlignment(.center)
+                .padding(0.0)
+                .frame(width: 200, height: 50)
+                    .background(Color.orange)
+
+                     .clipShape(RoundedRectangle(cornerRadius: 15))
+                     .shadow(radius: 5)
                 
                 
         }
