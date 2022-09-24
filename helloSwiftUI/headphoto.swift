@@ -10,6 +10,7 @@ import SwiftUI
 struct headphoto: View {
     var body: some View {
         VStack {
+            Button (action: signIn){
             Image("01wi")
                 .resizable()
                 .scaledToFill()
@@ -20,21 +21,19 @@ struct headphoto: View {
             .shadow(color: .gray, radius: 5, x: 2, y: 3)
             .padding()
             //.opacity(0.50)
+        }
             
-            
-         
-            
-            
-            
-            Text("PressMe")
-                .foregroundColor(Color.white)
-                .multilineTextAlignment(.center)
-                .padding(0.0)
-                .frame(width: 200, height: 50)
-                    .background(Color.purple)
+            Button (action: signIn){
+                Text("PressMe")
+                    .foregroundColor(Color.white)
+                    .multilineTextAlignment(.center)
+                    .padding(0.0)
+                    .frame(width: 200, height: 50)
+                        .background(Color.purple)
 
-                     .clipShape(RoundedRectangle(cornerRadius: 15))
+                         .clipShape(RoundedRectangle(cornerRadius: 15))
                      .shadow(radius: 5)
+            }
         }
             
     }
